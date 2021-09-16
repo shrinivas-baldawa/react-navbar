@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
-function error(){
+function Error(){
     return(
         <h1>No such page exists</h1>
     )
 }
 
-export default error;
+export default Error;

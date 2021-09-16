@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
-function home(){
+function Home(){
     return(
         <h1>Home</h1>
     )
 }
 
-export default home;
+export default Home;
