@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 function Menu(){
     return(
         <>
-        <a href="/"> Home </a>
+        <Link to='/'> Home </Link>
         <br></br>
-        <a href="/about"> About Us </a>
+        <Link to='/about'> About Us </Link>
         </>
     )
 }
