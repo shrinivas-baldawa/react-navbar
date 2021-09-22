@@ -4,7 +4,6 @@ function Menu(){
     return(
         <>
         <Link to='/'> Home </Link>
-        <br></br>
         <Link to='/about'> About Us </Link>
         </>
     )
