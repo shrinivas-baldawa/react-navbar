@@ -12,12 +12,11 @@ function App() {
         <Menu/>
         <Switch>
           <Route path="/" component={Home} exact></Route>
-          <Route path="/about" component={About}></Route>
+          <Route path="/about" component={About} exact></Route>
           <Route component={Error}></Route>
         </Switch>
       </main>
     </div>
   );
 }
-
 export default App;
