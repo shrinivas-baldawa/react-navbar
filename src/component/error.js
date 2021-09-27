@@ -4,5 +4,4 @@ function Error(){
         <h1>No such page exists</h1>
     )
 }
-
 export default Error;

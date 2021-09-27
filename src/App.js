@@ -3,13 +3,13 @@ import Home from './component/Home';
 import About from './component/About';
 import {Route,Switch} from 'react-router-dom';
 import Error from './component/Error';
-import Menu from './component/Menu';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Menu/>
+        <Navbar></Navbar>
         <Switch>
           <Route path="/" component={Home} exact></Route>
           <Route path="/about" component={About} exact></Route>
@@ -20,3 +20,5 @@ function App() {
   );
 }
 export default App;
+
+
